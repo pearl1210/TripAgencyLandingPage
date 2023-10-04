@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url("image/maldives1.jpg");
+    background-color: #cccccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+#logoimg {
+    height: 60px;
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    border-radius: 300px;
+}
+
+nav {
+    padding: 10px, 100px;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    border-radius: 10px;
+    background-image: linear-gradient(#bfe2f3, rgb(246, 222, 222));
+}
+
+.logo {
+    font-family: 'Zeyada', cursive;
+    color: black;
+    font-size: 26px;
+    font-weight: normal;
+    position: absolute;
+    top: 13px;
+    left: 170px;
+    cursor: pointer;
+}
+
+.navi ul {
+    float: right;
+    margin-top: 20px;
+    margin-right: 500px;
+}
+
+.navi a {
+    display: inline-block;
+    padding: 0px 30px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+#quote {
+    display: inline-block;
+    font-family: 'Rubik Dirt', cursive;
+    width: fit-content;
+    color: black;
+    margin-top: 200px;
+    font-size: 65px;
+}
+
+#maldives {
+    font-family: 'Londrina Shadow', cursive;
+    width: fit-content;
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 210px;
+    font-size: 150px;
+}
+
+#discription {
+    float: right;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'DM Serif Display', serif;
+    margin-top: -120px;
+    margin-right: 210px;
+    display: inline;
+    width: fit-content;
+    color: black;
+    clear: both;
+}
+
+.profile img{
+    height: 60px;
+    position: absolute;
+    top: 2px;
+    right: 70px;
+    border-radius: 300px;
+}
+
+.profile p{
+    font-family: 'Caveat', cursive;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    cursor: pointer;
+}
+
+#home hr {
+    border: 1px solid black;
+    margin-left: 180px;
+    width: 630px;
+}
+
+#explore {
+    background-image: url("image/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 60px;
+}
+
+
+.image1 img,
+.image2 img {
+    height: 300px;
+    width: 310px;
+    display: inline;
+    padding: 0px 2px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 15px;
+    border-radius: 35px;
+    box-shadow: 2px 2px #848484;
+    border: 1px solid darkblue;
+}
+
+#img1 {
+    margin-left: 80px;
+}
+
+#img3 {
+    margin-top: 370px;
+    margin-left: -650px;
+}
+
+.discription2 pre {
+    display: inline-block;
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    margin-right: 210px;
+    margin-left: 25px;
+    text-shadow: 2px 2px #848484;
+}
+
+.discription2 hr {
+    width: 250px;
+    border: 1px solid black;
+    margin-left: 410px;
+    margin-top: -70px;
+}
+
+.discription3 {
+    float: right;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(61, 103, 88);
+    margin-top: -380px;
+    margin-right: 100px;
+}
+
+div .contact img {
+    height: 550px;
+    margin-left: 50px;
+}
+
+div .contact h1 {
+    float: right;
+    margin-right: 230px;
+    margin-top: 80px;
+    font-size: 69px;
+    font-family: 'Yeseva One', cursive;
+    color: #2a96cb;
+}
+
+div .contact h3 {
+    float: right;
+    margin-right: 410px;
+    margin-top: -380px;
+    font-size: 30px;
+    font-family: 'Volkhov', serif;
+}
+
+div .contact pre {
+    float: right;
+    margin-right: 90px;
+    margin-top: -320px;
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+    color: black;
+}
+
+
+div .contact button {
+    float: right;
+    width:120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Volkhov', serif;
+    font-weight: bold;
+    margin-right: 480px;
+    margin-top: -150px;
+    box-shadow: 2px 2px gray;
+    background-color: #afdcf2;
+}
+
+div .contact button:hover{
+    background-color: rgb(222, 235, 247);
+}
